@@ -1,0 +1,11 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 3%;
+    margin-right: 2%;
+}
+
+.nav-item {
+    text-decoration: none;
+}

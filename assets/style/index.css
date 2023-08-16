@@ -36,6 +36,11 @@ main {
     gap: 50px;
 }
 
+.nav-item {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     display: flex;
     flex-direction: column;
