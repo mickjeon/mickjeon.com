@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/style/projects.css"/>
-    <link rel="stylesheet" href="./assets/style/index.css"/>
+    <link rel="stylesheet" href="./assets/style/global.css"/>
 
 </head>
-<body>
+<body style="font-family: Roboto;">
     <header>
         <div class="nav-container">
             <div class="nav-item-box"><a href="./index.html" class="nav-item"><p>Home</p></a></div>
@@ -18,6 +18,52 @@
             <div class="nav-item-box"><a href="./research.html" class="nav-item"><p>Research</p></a></div>
         </div>
     </header>
-<h1>projects page</h1>
+    <main>
+        <div class="main-container" style="width: 600px">
+            <div id="jump">
+                <h3>Jump to</h3>
+                <ul>
+                    <li><a>Social Distancing Face Shield</a></li>
+                    <li><a>Fortune Teller Website</a></li>
+                    <li><a>BERT Intent Classification</a></li>
+                </ul>
+            </div>
+            <div class="project">
+                <div id="ieee">
+                    <hr>
+                    <div class="project-header">
+                        <h2>Social Distancing Face Shield</h2>
+                        <a href="https://github.com/mickjeon" target="_blank" id="github"><img class="icon" src="./assets/images/github-142-svgrepo-com.svg" alt="github"/></a>
+                    </div>
+                    <p>
+                        Awarded 1st place in IEEE Quarterly Project Competition
+                    </p>
+                    <div class="img-container">
+                        <img id="shield1" src="assets/images/face_shield_1.png" alt="face_shield_1"/>
+                        <img id="shield2" src="assets/images/face_shield_2.png" alt="face_shield_2"/>
+                    </div>
+                    <p>
+                        Leveraging the <a href="https://industrial.panasonic.com/ww/products/pt/grid-eye/models/AMG8833" target="_blank">AMG8833</a> IR thermal imaging sensor, my
+                        team and I manufactured a prototype that detects human presence within 7 feet of the user. The sensor is a 8 x 8 pixelated thermal imaging
+                        camera that produces a "heat map."
+                    </p>
+                    <p>
+                        Once we had the sensor running with an Arduino Uno board, we collected thermal imaging data in various distance and situations: without
+                        a person, with a person, with multiple people. Upon data analysis, I found out a temperature threshold at 7 feet distance and learned that
+                        human(s) are detected as columns in the thermal image. I wrote up the code for human detection using this fact in Arduino C and went through
+                        validation. It was a huge success and I had a lot of fun merging software and simple hardware.
+                    </p>
+                    <hr>
+                </div>
+                <div id="fortune-teller">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr id="footer-hr">
+        <p>Jae Min Jeon @ 2023</p>
+    </footer>
 </body>
 </html>

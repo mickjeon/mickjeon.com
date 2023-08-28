@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/style/about.css"/>
-    <link rel="stylesheet" href="./assets/style/index.css"/>
+    <link rel="stylesheet" href="./assets/style/global.css"/>
 </head>
-<body>
+<body style="font-family: Roboto">
     <header>
         <div class="nav-container">
             <div class="nav-item-box"><a href="./index.html" class="nav-item"><p>Home</p></a></div>
@@ -17,6 +17,49 @@
             <div class="nav-item-box"><a href="./projects.html" class="nav-item"><p>Projects</p></a></div>
         </div>
     </header>
-    <h1>about page</h1>
+    <main>
+        <div class="main-container">
+            <div id="profile-img-div">
+                <img id="profile-img" src="./assets/images/profile.jpg" alt="profile-img" />
+            </div>
+            <div id="intro">
+                <p>
+                    I am a fourth year Computer Engineering student at University of California,
+                    San Diego. I am a student who is eager to learn, an engineer who loves innovation,
+                    a researcher who reads a lot of papers, and a surfer who loves the peacefulness
+                    of an ocean.
+                </p>
+                <p>
+                    I am passionate about solving problems through software and engineering. As a
+                    student researcher/full-stack developer, I have been researching a way to improve
+                    sleep quality in people living with schizophrenia (PLwS) through commercially
+                    available sleep trackers.
+                    I am also interested in the advancements of LLMs; studying the fundamentals
+                    of deep learning in school and applying my knowledge at <a>Cyberhaven</a>, I am
+                    eager to learn more and contribute to the future of LLMs.
+                </p>
+            </div>
+            <div id="skills">
+                <h2>Skills</h2>
+                <ul class="skill-list">
+                    <li>Python (NumPy, PyTorch)</li>
+                    <li>C++</li>
+                    <li>SQL, PostgreSQL</li>
+                    <li>HTML</li>
+                    <li>CSS (Bootstrap, Object-oriented)</li>
+                    <li>Javascript</li>
+                    <li>Git</li>
+                    <li>Docker</li>
+                    <li>Google Cloud Console (BigQuery, Vertex AI)</li>
+                    <li>Amazon Web Services (EC2, Elastic Beanstalk, RDS, Code Pipeline)</li>
+                    <li>IBM Cloud (IBM Code Engine)</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr id="footer-hr">
+        <p>Jae Min Jeon @ 2023</p>
+    </footer>
 </body>
 </html>
