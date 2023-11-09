@@ -38,6 +38,12 @@ p {
     justify-content: center;
 }
 
+#website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .icon {
     height: 30px;
     width: 30px;
